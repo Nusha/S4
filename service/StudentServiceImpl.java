@@ -7,7 +7,6 @@ import Sem_02.util.ReaderFromTxt;
 import Sem_02.util.WriterToTxt;
 
 
-
 public class StudentServiceImpl extends UserComparator implements DataService {
 
     @Override
@@ -17,13 +16,14 @@ public class StudentServiceImpl extends UserComparator implements DataService {
 
     @Override
     public User read(User user) {
-         return ReaderFromTxt.readFromTxt(user);
+        return ReaderFromTxt.readFromTxt(user);
 
     }
+
     @Override
     public int compare(Student student1, Student student2) {
-         UserComparator comparator = new UserComparator();
-         return comparator.compare(student1,student2);
+        UserComparator comparator = new UserComparator();
+        return comparator.compare(student1, student2);
     }
 
 }

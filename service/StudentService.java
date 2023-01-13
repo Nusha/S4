@@ -9,10 +9,12 @@ public class StudentService {
     public StudentService(StudentRepository studentRepository) {
         this.studentRepository = studentRepository;
     }
-    public Student saveStudent(Student name){
+
+    public Student saveStudent(Student name) {
         return studentRepository.save(name);
     }
-    public Student findById(int id){
+
+    public Student findById(int id) {
         return studentRepository.findById(id);
     }
 }

@@ -5,8 +5,10 @@ import Sem_02.data.User;
 
 public interface DataService<E extends User> {
     void create(User user);
+
     User read(User user); // Удалил дефолтные методы. Добавил абстрактные.
 
     int compare(Student student1, Student student2);
+
     int compareName(Student student1, Student student2);
 }

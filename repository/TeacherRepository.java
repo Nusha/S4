@@ -2,7 +2,7 @@ package Sem_02.repository;
 
 import Sem_02.data.Teacher;
 
-public class TeacherRepository implements UserRepository<Teacher,Integer> {
+public class TeacherRepository implements UserRepository<Teacher, Integer> {
     @Override
     public Teacher save(Teacher entry) {
         return null;

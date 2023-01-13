@@ -2,7 +2,6 @@ package Sem_02.data.comparator;
 
 import Sem_02.data.Student;
 
-
 import java.util.Comparator;
 
 public class UserComparator implements Comparator<Student> {
