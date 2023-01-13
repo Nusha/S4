@@ -14,7 +14,7 @@ public class TeacherRepository implements UserRepository<Teacher,Integer> {
     }
 
     @Override
-    public Teacher findByFio(String fio) {
+    public Teacher findByName(String Name) {
         return null;
     }
 }

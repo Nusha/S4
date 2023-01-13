@@ -18,7 +18,7 @@ public class TeacherService {
         return teacherRepository.findById(id);
     }
 
-    public Teacher findTeacherByFio(String fio) {
-        return teacherRepository.findByFio(fio);
+    public Teacher findTeacherByName(String name) {
+        return teacherRepository.findByName(name);
     }
 }
